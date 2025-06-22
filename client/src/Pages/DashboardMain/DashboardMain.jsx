@@ -96,7 +96,7 @@ const handleDeleteClick = async (productId) => {
         <div className="dashboard-bottom">
         <div className="dashboard-bottom-main">
           <h1>Inventory Items</h1>
-          <input type="text" id="search" placeholder='Search by name'  value={searchQuery} 
+          <input type="text" className='search' id="search" placeholder='Search by name'  value={searchQuery} 
           onChange={(e) => setSearchQuery(e.target.value)}/>
           <img src={search} alt="" />
         </div>
